@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.boxed
+{
+    /* width: 10rem;
+    height: 10rem;
+    border: 5px solid black;
+    padding: 1rem;
+    background-color: orange; */
+    /* box-sizing: content-box; */
+    /*
+    width = width + padding-left + padding-right + border-left + border-right
+        100 + 10 + 10 + 5 + 5 = 130px
+    height = height + padding-top + padding-bottom + border-top + border-bottom
+        100 + 10 + 10 + 5 + 5 = 130px
+    */
+
+    /* box-sizing: border-box; */
+    /*
+    width = width - padding-left - padding-right - border-left - border-right
+        100 - 10 - 10 - 5 - 5 = 70px
+    height = height - padding-top - padding-bottom - border-top - border-bottom
+        100 - 10 - 10 - 5 - 5 = 70px
+    */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+    background-color: black;
+    display: inline-block;
+    display: block;
+    display: none;
+}
+
+.font{
+    line-height: 1;
+    text-align: left;
+    /* text-align: right; */
+    /* text-align: center; */
+    /* text-align: justify; */
+    max-width: 300px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    /* Hiển dấu 3 chấm trên 1 hàng */
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    /* Hiển thị dấu 3 chấm tới hàng thứ 3 */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
