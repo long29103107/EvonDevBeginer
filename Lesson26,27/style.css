@@ -67,3 +67,24 @@ img{
     border-radius: 50%;
     object-fit: cover;
 }
+.link{
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    background-color: violet;
+    margin-left: 2rem;
+}
+
+.link:hover{
+    color: black;
+    background-color: white;
+}
+
+.link--rounded{
+    border-radius: 8px;
+}
+
+.link--round{
+    border-radius: 2rem;
+}
