@@ -27,6 +27,20 @@ body{
     height: 20rem;
     background-image: linear-gradient(to right bottom
     , #00aefc, #ffa400);
+    cursor: pointer;
+
+    opacity: 0;
+    /* Chiếm diện tích, có thể nhấn vô được */
+    visibility: hidden;
+    /* Không chiếm diện tích, không thể nhấn vô được */
+    display: none;
+    /* Không chiếm diện tích, không thể nhấn vô được */
+    pointer-events: none;
+    /* Không chiếm diện tích, không thể nhấn vô được */
+    z-index: -1;
+    /* Không chiếm diện tích, không thể nhấn vô được */
+    position: absolute;
+    /* Không chiếm diện tích, không thể nhấn vô được */
 
     /*
     direction: to right, to left, to bottom to top ,
