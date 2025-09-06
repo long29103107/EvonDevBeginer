@@ -1,0 +1,112 @@
+:root{
+    /* global variable */
+    --primary-color: #00aefd;
+    --secondary-color: #ffa400;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    font-weight: normal;
+    height: 2000px;
+    width: 100%;
+    height: 100vh;
+}
+
+ul {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+li:first-of-type
+{
+    color: red;
+}
+
+/* 
+li:first-child
+{
+    color: red;
+}
+
+li:last-child
+{
+    color: orange;
+}
+
+li:nth-child(2)
+{
+    color: purple;
+}
+
+li:nth-child(4)
+{
+    color: violet;
+}
+
+li:nth-last-child(2)
+{
+    color: yellowgreen;
+}
+
+li:not(:first-child)
+{   
+    color: green;
+}
+
+li:not(:last-child)
+{   
+    color: brown;
+}
+
+li:nth-child(odd)
+{
+    color: black;
+}
+
+li:nth-child(even)
+{
+    color: purple;
+}
+
+li:nth-child(2n + 1)
+{
+    color: aqua;
+} */
+
+
+.boxed2{
+    width: 20rem;
+    height: 20rem;
+    opacity: 0;
+    background-color: red;
+    transition: background-color .2s linear,
+    color .2s linear;
+    transition: all .2s linear;
+    /* transition: property timer 2s easing */
+}
+
+.wrap {
+    width: 20rem;
+    height: 20rem;
+}
+/* 
+.wrap:hover .boxed2{
+    display: inline-block;
+} */
+ 
+.boxed2:hover{
+    opacity: 1;
+    background-color: green;
+    color:white;
+} 
