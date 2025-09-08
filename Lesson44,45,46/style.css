@@ -1,0 +1,67 @@
+:root{
+    /* global variable */
+    --primary-color: #00aefd;
+    --secondary-color: #ffa400;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    font-weight: normal;
+    height: 2000px;
+    width: 100%;
+    height: 100vh;
+}
+
+.boxed
+{
+    width: 5rem;
+    height: 5rem;
+    background-color: red;
+    /* position: relative;
+    left: 10px;
+    top: 10px;
+    bottom: -50px;
+    right: -50px; */
+    /* 
+        tranform: scale scaleX scaleY 
+        tranform: rotate
+        tranform translate translateX translateY
+    */
+    /* transform: scaleX(2) scaleY(2);
+    transform: scale(2,2);
+    transform: rotate(45deg);
+    transform: translateX(10px) translateY(10px);
+    transform: translateX(100%);
+    transform: scale(2) rotate(45deg) translate(100%, 50%);  */
+    /* margin: 5rem;
+    transform: skewX(-30deg) skewY(-30deg); */
+}
+
+p {
+    color: white;
+}
+
+.wrap {
+    width: 100%;
+    height: 50rem;
+    background-color: black;
+    position: relative;
+}
+
+.boxed {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

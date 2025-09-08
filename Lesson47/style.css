@@ -1,0 +1,41 @@
+:root{
+    /* global variable */
+    --primary-color: #00aefd;
+    --secondary-color: #ffa400;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    font-weight: normal;
+    height: 2000px;
+    width: 100%;
+    height: 2000px;
+    padding-top: 10rem;
+}
+
+.wrapper
+{
+    transform: translate(30px, 30px);
+}
+
+.header
+{
+    width: 100%;
+    height: 10rem;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
